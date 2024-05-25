@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+mlflow
+prefect
+kaggle
+sqlalchemy
+requests
