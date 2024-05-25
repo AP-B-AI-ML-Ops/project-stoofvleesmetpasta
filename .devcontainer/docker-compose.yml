@@ -17,14 +17,16 @@ services:
     env_file:
         - ../.env
     volumes:
+      - ../:/workspaces/project-stoofvleesmetpasta
       - grafana-data-config-datasources:/workspaces/project-stoofvleesmetpasta/.grafana/datasources
-      - grafana-data-config-dashboards:/workspaces/project-stoofvleesmetpasta/.grafana/dashboards
+      - grafana-data-config-dashboards:/workspaces/project-bazastoofvleesmetpastaaer/.grafana/dashboards
       - grafana-data-dashboards:/workspaces/project-stoofvleesmetpasta/dashboards
     network_mode: service:db
     command: sleep infinity
 
   db:
     image: postgres:latest
+    restart: unless-stopped
     volumes:
       - postgres-data:/var/lib/postgresql/data
     env_file:
