@@ -4,7 +4,7 @@
 	"name": "Anaconda (Python 3)",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"workspaceFolder": "/workspaces/project-stoofvleesmetpasta",
 	"customizations": {
 		"vscode": {
 			"extensions": [

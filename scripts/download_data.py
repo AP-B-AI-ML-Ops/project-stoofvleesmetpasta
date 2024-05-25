@@ -20,3 +20,5 @@ def collect_flow(update=False):
 
     if (not os.path.exists("./data/raw/consumption.csv")) or update:
         download_dataset(api, 'uciml/student-alcohol-consumption')
+
+collect_flow()
