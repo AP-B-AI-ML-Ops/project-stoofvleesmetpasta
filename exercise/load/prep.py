@@ -43,9 +43,10 @@ def prep_flow(data_path, dest_path):
     df_test = load_data()
 
     #preprocess data
-    df_train = clean_data(df_train)
-    df_val = clean_data(df_val)
-    df_test = clean_data(df_test)
+    df_train = encode_data(clean_data(df_train))
+    df_val = encode_data(clean_data(df_val))
+    df_test = encode_data(clean_data(df_test))
+
 
     # Extract the target
     target = 'alc'
