@@ -1,2 +1,7 @@
 .temp
 testfile.py
+__pycache__
+.db
+mlruns/
+mlartifacts/
+*.pkl
