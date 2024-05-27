@@ -9,3 +9,12 @@ requests
 optuna
 evidently
 psycopg
+jupyter
+seaborn
+hyperopt
+xgboost
+fastparquet
+boto3
+threadpoolctl
+botocore
+pylint
