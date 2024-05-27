@@ -2,5 +2,8 @@
 disable = [
     "missing-function-docstring",
     "missing-class-docstring",
+    "missing-module-docstring",
+    "too-many-arguments",
+    "R0801",
     "C0103"
 ]

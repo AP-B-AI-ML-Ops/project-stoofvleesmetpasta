@@ -25,10 +25,11 @@ repos:
       entry: pylint
       language: system
       types: [python]
+      files: exercise  # Check all files in the root folder
       args: [
-        "-rn", # Only display messages
-        "-sn", # Don't display the score
-        "--recursive=y"
+        "-rn",  # Only display messages
+        "--recursive=y",
+        "--rcfile=pyproject.toml"  # Take settings from abc.toml
       ]
 - repo: local
   hooks:
@@ -39,5 +40,5 @@ repos:
       pass_filenames: false
       always_run: true
       args: [
-        "tests/"
+        "exercise/tests/"
       ]
