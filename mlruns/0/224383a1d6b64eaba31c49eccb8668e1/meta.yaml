@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/project-stoofvleesmetpasta/mlruns/0/224383a1d6b64eaba31c49eccb8668e1/artifacts
+end_time: 1716733236888
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 224383a1d6b64eaba31c49eccb8668e1
+run_name: luxuriant-zebra-388
+run_uuid: 224383a1d6b64eaba31c49eccb8668e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716733232748
+status: 3
+tags: []
+user_id: vscode

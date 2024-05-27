@@ -1,7 +1,6 @@
 .temp
 testfile.py
 __pycache__
-.db
-mlruns/
+*.db
 mlartifacts/
 *.pkl

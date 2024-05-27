@@ -60,9 +60,9 @@ def prep_flow(data_path, dest_path):
     X_val = remove_target(df_val)
 
     # Create dest_path folder unless it already exists
-    os.makedirs(dest_path, exist_ok=True)
+    os.makedirs(data_path, exist_ok=True)
 
     # Save DictVectorizer and datasets
-    dump_pickle((X_train, y_train), os.path.join(dest_path, "train.pkl"))
-    dump_pickle((X_val, y_val), os.path.join(dest_path, "val.pkl"))
-    dump_pickle((X_test, y_test), os.path.join(dest_path, "test.pkl"))
+    dump_pickle((X_train, y_train), os.path.join(data_path, "train.pkl"))
+    dump_pickle((X_val, y_val), os.path.join(data_path, "val.pkl"))
+    dump_pickle((X_test, y_test), os.path.join(data_path, "test.pkl"))

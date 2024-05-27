@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/project-stoofvleesmetpasta/mlruns/0/e3b38f5e48dc487b8e1a65c3eb6cb545/artifacts
+end_time: 1716733313296
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e3b38f5e48dc487b8e1a65c3eb6cb545
+run_name: loud-seal-939
+run_uuid: e3b38f5e48dc487b8e1a65c3eb6cb545
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716733309896
+status: 3
+tags: []
+user_id: vscode

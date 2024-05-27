@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/project-stoofvleesmetpasta/mlruns/0/42fd5dd0c6aa48449a32ebcc20241a29/artifacts
+end_time: 1716734655646
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 42fd5dd0c6aa48449a32ebcc20241a29
+run_name: mercurial-goose-556
+run_uuid: 42fd5dd0c6aa48449a32ebcc20241a29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716734654874
+status: 3
+tags: []
+user_id: vscode

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/project-stoofvleesmetpasta/mlruns/0/3209fb29c79a406fb68e738f77ab07d7/artifacts
+end_time: 1716734226821
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3209fb29c79a406fb68e738f77ab07d7
+run_name: powerful-hare-386
+run_uuid: 3209fb29c79a406fb68e738f77ab07d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716734226068
+status: 3
+tags: []
+user_id: vscode

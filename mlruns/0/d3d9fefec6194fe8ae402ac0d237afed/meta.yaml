@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/project-stoofvleesmetpasta/mlruns/0/d3d9fefec6194fe8ae402ac0d237afed/artifacts
+end_time: 1716733347442
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3d9fefec6194fe8ae402ac0d237afed
+run_name: resilient-trout-606
+run_uuid: d3d9fefec6194fe8ae402ac0d237afed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716733344150
+status: 3
+tags: []
+user_id: vscode

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/project-stoofvleesmetpasta/mlruns/0/252ca4a747354e4db025660ae3a0436f/artifacts
+end_time: 1716730273324
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 252ca4a747354e4db025660ae3a0436f
+run_name: puzzled-squid-942
+run_uuid: 252ca4a747354e4db025660ae3a0436f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716730272577
+status: 3
+tags: []
+user_id: vscode
